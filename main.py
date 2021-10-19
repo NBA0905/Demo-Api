@@ -33,7 +33,7 @@ def send_mail(receiver: str, content: str, subject: str ):
     else:
         return False
     
-    print(send_mail("gembloom05@gmail.com", "test", "test subject"))
+print(send_mail("gembloom05@gmail.com", "test", "test subject"))
 
 
     
